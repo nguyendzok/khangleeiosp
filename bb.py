@@ -27,13 +27,13 @@ from telegram.constants import ParseMode
 from telegram.error import BadRequest, Forbidden, TelegramError
 
 # --- Cấu hình ---
-BOT_TOKEN = "7416039734:AAHi1YS3uxLGg_KAyqddbZL8OxXB1wamga8" # <--- TOKEN CỦA BẠN
+BOT_TOKEN = "7760706295:AAEt3CTNHqiJZyFQU7lJrvatXZST_JwD5Ds" # <--- TOKEN CỦA BẠN
 API_KEY = "khangdino99" # <--- API KEY TIM (VẪN CẦN CHO LỆNH /tim)
-ADMIN_USER_ID = 7193749511 # <<< --- ID TELEGRAM CỦA ADMIN
+ADMIN_USER_ID = 6367528163 # <<< --- ID TELEGRAM CỦA ADMIN
 # Bỏ ALLOWED_GROUP_ID để bot hoạt động ở mọi nhóm, hoặc giữ lại nếu chỉ muốn hoạt động ở 1 nhóm CỤ THỂ
 # Nếu giữ lại, các hàm như handle_photo_bill, report_treo_stats sẽ chỉ hoạt động ở group đó
 # Nếu bỏ đi, bạn cần quyết định xem các hàm đó nên gửi thông báo đi đâu (ví dụ: gửi cho admin)
-ALLOWED_GROUP_ID = -1002191171631 # <--- GIỮ LẠI CHO VIỆC GỬI BILL VÀ THỐNG KÊ, CÁC LỆNH KHÁC SẼ HOẠT ĐỘNG MỌI NƠI
+ALLOWED_GROUP_ID = -1002678326667 # <--- GIỮ LẠI CHO VIỆC GỬI BILL VÀ THỐNG KÊ, CÁC LỆNH KHÁC SẼ HOẠT ĐỘNG MỌI NƠI
 # HOẶC BỎ HẲN DÒNG TRÊN (xóa hoặc comment): ALLOWED_GROUP_ID = None
 
 LINK_SHORTENER_API_KEY = "cb879a865cf502e831232d53bdf03813caf549906e1d7556580a79b6d422a9f7" # Token Yeumoney
